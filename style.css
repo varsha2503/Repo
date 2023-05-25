@@ -1,0 +1,140 @@
+.white-number {
+  color: white;
+}
+.leaderboard {
+  border-collapse: collapse ;
+  width: 100%;
+  background-color: #E6E6FA;
+  color: black ;
+}
+
+.leaderboard td {
+  border: 5px solid white ; 
+  text-align: left ;
+}
+
+.circle {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid white; 
+  border-radius: 50%;
+  background-color: #CCCCFF;
+  margin-right: 5px;
+}
+
+.number {
+  margin-right: 5px;
+}
+
+.name {
+  margin-right: 10px;
+}
+.circle-container {
+  display: flex;
+  justify-content: center;
+  background-color: #7B68EE;
+  align-items: flex-end;
+}
+.ocontainer{
+  display: flex;
+  justify-content: center;
+  background-color: #7B68EE;
+  align-items: center;
+}
+
+.line {
+  height: 1px;
+  background-color: white;
+  margin: 0 0 ;
+}
+
+.space {
+  margin-left: 500px;
+}
+.sps {
+  margin-left: 10px;
+}
+.spaces {
+  margin-left: 25px;
+}
+.se {
+  background-color: #CCCCFF;
+  border-radius : 15px ;
+  padding-right: 10px;
+  padding-left: 10px;
+} 
+
+#container {
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+}
+body {
+  background-color: black ;
+  }
+.co {
+  background-color: #7B68EE;
+  color : white ;
+  font-size: 30px ;
+  padding : 5px ;
+}
+/* .ss {
+    margin-left: 30px;
+  margin: 10px ; 
+} */
+.ss {
+  padding: 10px;
+  align-items: center;
+}
+
+.circles {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #CCCCFF;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.small-circle {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #CCCCFF;
+  border: 3px solid white; 
+  margin: 20px;
+}
+
+.circles {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #CCCCFF;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.big-circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #CCCCFF;
+  border: 3px solid white; 
+  margin: 20px;
+}
+
+.sc {
+    margin-left: 40px;
+  margin: 1px ; 
+}
+.li {
+  height: 3px;
+  background-color: #7B68EE;
+  margin: 0 0 ;
+}
